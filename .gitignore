@@ -6,7 +6,8 @@ test/*
 
 train/*
 
-dataset/*
+train_chars/*
+test_chars/*
 
 .venv/
 

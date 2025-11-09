@@ -4,13 +4,13 @@ import numpy as np
 import os
 import random
 
-def get_rand_img_path():
-    train_dir = os.getcwd() + "/../train/"
+def get_rand_img_path(folder="/../train/"):
+    train_dir = os.getcwd() + folder
     train_files = os.listdir(train_dir)
     return train_dir + random.choice(train_files)
 
-def get_img(label):
-    train_dir = os.getcwd() + "/../train/"
+def get_img(label, folder="/../train/"):
+    train_dir = os.getcwd() + folder
     path = os.path.join(train_dir,f"{label}-0.png")
     img = cv2.imread(path)
     return img
