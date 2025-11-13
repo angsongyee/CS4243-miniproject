@@ -1,0 +1,5 @@
+segmentation_method,accuracy
+log_gabor, 0.166916354556804
+stroke_width, 0.5224050632911392
+stroke_width_contrast_upscaling, 0.610379746835443
+high_pass_upscaling, 0.7726582278481012
